@@ -18,15 +18,12 @@
   <?php include_once 'php/socialNetworks.php';?>
 
   <?php include 'pages/titleInHome.php';?>
-  <div id="content">
-
-    <?php include_once 'pages/about.php';?>
-    <?php include_once 'pages/gallery.php';?>
-    <?php include_once 'pages/exhibition.php';?>
-    <?php include_once 'pages/contact.php';
-
-    ?>
+  <div style="text-align: center;
+vertical-align: middle;line-height: 90px; font-size:0.8em;font-weight: lighter;
+    letter-spacing: 0.1em;     font-family: 'Open Sans', sans-serif;" id="tempPage">
+    <p> We are currently in maintenance and will be running again very soon.</p>
+    <p> You can see the <a style="float: none;" href="https://www.facebook.com/Nourine-Hammad-1413192872293705/">Facebook</a>
+      page and follow me on <a style="float: none;" href="https://www.instagram.com/nourinehammadart/">Instagram</a>
   </div>
-  <?php include_once 'php/navigation.php';?>
 </body>
 </html>
