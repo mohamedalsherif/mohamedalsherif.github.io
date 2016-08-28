@@ -1,29 +1,68 @@
-.combiningGalleryDivs
+
+#ExhibitionImage
 {
-  overflow: auto;
-  overflow-y: hidden; // hide vertical
-  overflow-x: hidden; // hide horizontal
+	content:url("../img/other/Exhibition.jpg");
+	height: auto;
+	max-width: 80%; 
+	max-height: 80%; 
+	margin-left:30px;
+	margin-top:20px;
+	border: none; 
 }
 
-.ExhibitionContainerDiv
+
+.nourineName
 {
-	margin-bottom:20px;
-	margin-top:10px;
+	font-size:21px;
 }
 
-.exhibitionImage
-{
-	margin-right:10px;
-	box-shadow: rgb(136, 136, 136) 4px 4px 5px;
+html.touch *:hover {
+    all:unset!important;
 }
 
-.ExhibitionDescription
+.removeBorderBottom
 {
-  margin-left:10px;
-  font-size: 12px!important;
+	border-bottom: none; 
 }
 
-.combiningExhibitions
+span
 {
-	overflow: auto;
+	line-height: 19px;
+	color: rgb(129, 129, 129);
+	font-family: 'ArialMT', 'Arial', sans-serif;
+	font-size: 12px;
+ 	font-stretch: normal;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 400;
+  	letter-spacing: 0;
+  	text-align: left;
+  	text-indent: 0px;
+  	text-transform: none;
+  	word-wrap: break-word;
+}
+
+#theHeader
+{
+	height:5px
+}
+
+@media (min-width: 768px) 
+{
+
+	#ExhibitionImage
+{
+	
+	margin-left:70px;
+}
+}
+
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px)  
+{
+	#ExhibitionImage
+{
+	margin-left:140px;
+}
 }

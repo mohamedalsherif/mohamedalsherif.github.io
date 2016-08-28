@@ -1,0 +1,25 @@
+
+#leftArrow
+{
+	content:url("../img/other/arrowLeft.png");
+	position: relative;
+	margin-left: 80px;
+    float: left;
+}
+
+#rightArrow
+{
+	content:url("../img/other/arrowRight.png");
+	position: relative;
+	margin-right: 80px;
+    float: right;
+}
+
+#theImage
+{
+	border: none; 
+	max-width:500px; 
+	max-height:500px; 
+	height: auto; 
+	width: auto;
+}

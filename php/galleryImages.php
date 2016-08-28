@@ -6,26 +6,6 @@ function getGalleryRowCount1()
   return 5;//count($images)/$maxImagesPerColumn;
 }
 
-/////////////////////////// Articles Functions ///////////////////////////
-function getArticlesCount()
-{
-	global $articles;
-	return count($articles);
-}
-
-function givenArticlesIndexGetArticlesParagraph($index)
-{
-  	global $articles;
-    $j=0;
-  	$name = $articles[$index][$j++];
-  	$link = $articles[$index][$j++];
-    $formatNew ='
-    <div class="articlePDivs">  <a class="articleLinks" href="%s">%s</a>
-    </div>
-  		';
-  	$result =  sprintf($formatNew,$link,$name);
-    return $result;
-}
 
 /////////////////////////// Exhibition Functions ///////////////////////////
 function getExhibitionsCount()
@@ -54,9 +34,9 @@ function givenExhibitionIndexGetImageDiv($index)
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<div class="ExhibitionDescription">
 			<h4>%s</h4>
-			<span style ="font-style:italic" class="theCorrectFontParagraph subtitle">%s</span><br>
+			<span style ="font-style:italic" class="subtitle">%s</span><br>
 			<span style ="font-weight:600"  class="date">%s</span><br>
-			<span style="    letter-spacing: 1px !important;" class="theCorrectFontParagraph">%s</span><br>
+			<span class="description">%s</span><br>
 			<a href="%s" style="font-size:12px">Read More</a><br>
 			</div>
 		</div>
@@ -154,7 +134,7 @@ function givenImageIndexGetImageCaption($index)
 
 function givenGalleryImageIndexGetImageDiv($index)
 {
-  global $imagesLocationNormal,$images, $gallery_image_to_overlay_size;
+  global $imagesLocationNormal,$images;
 
 	$imagePathSmall = givenImageIndexGetSmallImagePath($index);
 	$imagePathBig = givenImageIndexGetBigImagePath($index);
@@ -166,7 +146,7 @@ function givenGalleryImageIndexGetImageDiv($index)
   $imageName = $images[$index][$j++];
   $imageMedium = $images[$index][$j++];
   $imageFrame = $images[$index][$j++];
-  $soldOptional = array_key_exists ($j,$images[$index])?$images[$index][$j++]:"";
+  //$soldOptional= array_key_exists ($j,$images)?$images[$index][$j++]:"";
 
 	if(!isIndexEmpty($index))
 	{
@@ -177,77 +157,27 @@ function givenGalleryImageIndexGetImageDiv($index)
       $classTest="pImageName2";
     }*/
     list($width, $height, $type, $attr) = getimagesize($imagePathBig);
-
-
-
-    if(isset($gallery_image_to_overlay_size[$width.'*'.$height]))
-    {
-      $computedOverlayHeight=$gallery_image_to_overlay_size[$width.'*'.$height][0];
-      $computedOverlayWidth=$gallery_image_to_overlay_size[$width.'*'.$height][1];
-    }
-    else
-    {
-      $computedOverlayHeight=100;
-      $computedOverlayWidth=100;
-    }
-    $titleMargin=$computedOverlayHeight*0.26;
-    $margin_of_img_to_make_space_smaller=100-$computedOverlayHeight;
-    $widthOfDataSize=$width;
-    if($computedOverlayWidth!=100)
-    {
-      $formatNew ='
-      <div class="galleryImageContainer col-xs-12 col-md-4">
-      <p class="pContentNone pImageName">'.$imageName .'</p>
-      <a class="gallery_a_element hrefToRemoveInMobile" href="%s" data-size="'.$widthOfDataSize.'x'.$height.'" >
-                          <div style="position:relative; display:block; background-image: url(%s); margin-bottom:-'.$margin_of_img_to_make_space_smaller.'%%!important;" class="refcontainer">
-                          <div class=" overlay overlaysmall" style="display: block; height:'.$computedOverlayHeight.'%% !important;
-                           width:'.$computedOverlayWidth.'%% !important;">
-                          <span class="theCorrectFontParagraph titleSize overlayTitle" style="margin-top: '.$titleMargin.'%%;color:white;">'.$imageName.'</span>
-
-                          <span style="color:white;" class="theCorrectFontParagraph size overlaySizeAndMedium">'.$imageFrame.'<br>
-                          '.$imageMedium.'</span>
-                          <span style="color:white;" class="theCorrectFontParagraph size overlaySold"><br>
-                          '.$soldOptional.'</span>
-                          </div>
-                          </div>
-
-      </a>
-
-      ';
-      //$widthOfDataSize=$width*($computedOverlayWidth/100);
-    //  echo "widthOfDataSize ".$widthOfDataSize." width ".$width." computedOverlayWidth ".$computedOverlayWidth." midanswer ";
-    }
-    else{
     //echo "<p>".$width." </p>";
+
     $formatNew ='
 		<div class="galleryImageContainer col-xs-12 col-md-4">
-    <p class="pContentNone pImageName">'.$imageName .'</p>
-    <a class="gallery_a_element hrefToRemoveInMobile" href="%s" data-size="'.$widthOfDataSize.'x'.$height.'" >
-                        <div style="position:relative; display:block; background-image: url(%s); margin-bottom:-'.$margin_of_img_to_make_space_smaller.'%%!important;" class="refcontainer">
-                        <div class=" overlay overlaysmall" style="display: block; height:'.$computedOverlayHeight.'%% !important;
-                         width:'.$computedOverlayWidth.'%% !important;">
-                        <span class="theCorrectFontParagraph titleSize overlayTitle" style="margin-top: '.$titleMargin.'%%;color:white;">'.$imageName.'</span>
+    <p class="pImageName">'.$imageName .'</p>
+    <a class="hrefToRemoveInMobile" href="%s" data-size="'.$width.'x'.$height.'">
+       <img src="%s" itemprop="thumbnail" alt="Image description" class="galleryImage"  />
+       <figure>%s</figure>
+    </a>';
 
-                        <span style="color:white;" class="theCorrectFontParagraph size overlaySizeAndMedium">'.$imageFrame.'<br>
-                        '.$imageMedium.'</span>
-                        <span style="color:white;" class="theCorrectFontParagraph size overlaySold"><br>
-                        '.$soldOptional.'</span>
-                        </div>
-       			            </div>
-
-    </a>
-
-    ';
-}
   //$formatNew .= '<p>'.$imageName .'</p>';
-  $formatNew .= '<p class="pContentNone pMargin">&nbsp&nbsp'.$imageMedium .'</p>';
-  $formatNew .= '<p class="pContentNone pMargin">&nbsp&nbsp'.$imageFrame .'</p>';
+  $formatNew .= '<p class="pMargin">&nbsp&nbsp'.$imageMedium .'</p>';
+  $formatNew .= '<p class="pMargin">&nbsp&nbsp'.$imageFrame .'</p>';
 
 
   //
-  $formatNew .= '<p class="pContentNone pSpaceToNextImage  pSold">&nbsp&nbsp '.$soldOptional .'</p>';
-    $formatNew .='<div id="d" class="pContentNone" style="visibility: visible; display: block;">
-<img src="public/img/other/LogoLine.png" class="pContentNone logoLine"></div>';
+  if(array_key_exists($j,$images[$index]))
+      $formatNew .= '<p class="pSpaceToNextImage  pSold">&nbsp&nbsp'.$images[$index][$j] .'</p>';
+  else {
+    $formatNew .= '<p class="pSpaceToNextImage"></p>';
+  }
     //$formatNew .= '<img src="public/img/other/SeperatorLine.png" class="pMargin" alt="Seperator Line" width="300px" height="12">';
   //
 
@@ -260,7 +190,7 @@ function givenGalleryImageIndexGetImageDiv($index)
       //    <img src="%s" itemprop="thumbnail" alt="Image description" class="galleryImage"  />
     //  </a>
     //	</figure>';
-		$result =  sprintf($formatNew,$imagePathBig,$imagePathBig);//$imageCaption
+		$result =  sprintf($formatNew,$imagePathBig,$imagePathBig,$imageCaption);
        return $result;
 	}
 	else

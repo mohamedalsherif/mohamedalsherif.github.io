@@ -6,15 +6,19 @@
 
 
   <div id="bio">
-    <p id="theBioParagraph" class="theCorrectFontParagraph">
+    <p>
       <?php
       echo $bioText;
       ?>
     </p>
   <p>&nbsp;</p>
-    <div id="theBioImage"  class="col-xs-offset-2 col-xs-8">
-      <img id="mainAboutImage" src="<?php echo $aboutMainImage;?>"></img>
-    </div>
+  <p>
+    <em>
+      <?php
+      echo $enquiryText;
+      ?>
+    </em>
+  </p>
   </div>
 
 </div>

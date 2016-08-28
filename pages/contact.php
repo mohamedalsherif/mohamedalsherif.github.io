@@ -2,42 +2,32 @@
 
 <div id="contactTopDiv"></div>
 
+<div style=" overflow: hidden; ">
 
-<div class="centerPseudo">
+  <div class ="contactNames" style=" float:left;">
+        <p><span class ="contactEmailAndSocialText">Email
+        <br /></span></p>
+        <p><span class ="contactEmailAndSocialText">Social Networks
+         &nbsp&nbsp&nbsp&nbsp&nbsp<br /></span></p>
+        <p><span class ="invisibleText contactEmailAndSocialText">Social Networks:
+        <br /></span></p>
 
+        </div>
+<div class ="contactLinks" >
+      <p><span class ="contactTextSpan"><?php
+      echo $contactPageText;
+      ?><br /></span></p>
+      </div>
 
+      <div id ="socialNetworkLinks" class ="aboutLinks">
 
+        <span class="instagramSize ig-follow" data-id="9b21ace95f" data-handle="nourinehammadart" data-count="true" data-size="small" data-username="true"></span>
+        <br>
+    </div>
 
-  <div class="enquiry">
-        <center>
+    <div id="fblikeDiv" class="fb-like" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
-					<a class="contactSocialIcons theAFloatNone" href="<?php echo $facebookPage;?>" target="blank"><img src="public/img/other/fb.svg"></a>
-					<a class="contactSocialIcons theAFloatNone" href="<?php echo $instagramPage;?>" target="blank"><img src="public/img/other/insta.svg"></a>
-						<!--<<li><img src="images/pin.svg"></li>-->
-
-            </center>
-  </div>
-            <br/>
-            <div class="nourineMail">
-      <center>
-              <a id="theMailCenterA" class="theAFloatNone" href="mailto:<?php
-              echo $contactPageText;
-              ?>" class="theCorrectFont mail"><?php
-              echo strtoupper($contactPageText);
-              ?></a>
-      </center>
-            </div>
-
-
-</div>
-<div class="theCorrectFontParagraph col-xs-offset-2 col-xs-8 enquiry" >
-
-<center>
-    <?php
-    echo $enquiryText;
-    ?>
-</center>
-</div>
+          </div>
 
 
 </div>
