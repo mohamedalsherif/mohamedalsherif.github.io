@@ -35,7 +35,7 @@
 			<div id= "divInImageOpenPhotoSwipe">
 
 				<div class="artwork_details_wrapper">
-				              
+
 
 
 
@@ -76,7 +76,7 @@
 				    </script>
 
 
-						<div class="link share_link"><a href="#"> Share</a></div>
+						<!--<div class="link share_link"><a href="#"> Share</a></div>-->
 
 
 
