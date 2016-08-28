@@ -34,7 +34,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector)
 			        item.el = el; // save link to element for getThumbBoundsFn
 
 			        if(childElements.length > 0) {
-			          item.msrc = childElements[0].getAttribute('src'); // thumbnail url
+			          item.msrc = item.src; // thumbnail url
 			          if(childElements.length > 1) {
 			              item.title = childElements[1].innerHTML; // caption (contents of figure)
 			          }
