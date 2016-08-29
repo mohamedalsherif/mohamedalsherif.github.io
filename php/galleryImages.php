@@ -246,7 +246,7 @@ function givenGalleryImageIndexGetImageDiv($index)
 
   if($soldOptional=="")
   {
-      $formatNew .= '<p class="pContentNone pSpaceToNextImage">&nbsp&nbsp '.$soldOptional .'</p>';
+      $formatNew .= '<p class="pContentNone pSpaceToNextImageWithoutSold">&nbsp&nbsp '.$soldOptional .'</p>';
   }else {
     $formatNew .= '<p class="pContentNone pSpaceToNextImage pSold">&nbsp&nbsp '.$soldOptional .'</p>';
   }
