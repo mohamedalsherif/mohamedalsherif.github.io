@@ -20,7 +20,7 @@ function givenArticlesIndexGetArticlesParagraph($index)
   	$name = $articles[$index][$j++];
   	$link = $articles[$index][$j++];
     $formatNew ='
-    <div class="articlePDivs">  <a class="articleLinks" href="%s">%s</a>
+    <div class="articlePDivs">  <a class="articleLinks" href="%s" target="_blank">%s</a>
     </div>
   		';
   	$result =  sprintf($formatNew,$link,$name);
