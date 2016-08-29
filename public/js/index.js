@@ -233,7 +233,8 @@ $( document ).ready(function()
       adaptiveHeight: true,
       arrows: false,
       swipe:swipe,
-      touchMove:false
+      touchMove:false,
+      touchThreshold:4
 });
 	gotoArtworkIfUrlContainsGidAndPid();
     fixDisplay();
