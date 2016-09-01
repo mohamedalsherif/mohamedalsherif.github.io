@@ -12,9 +12,9 @@ $aboutMainImage = "public/img/normalSize/2.jpg";
 $imagesLocationNormal= "public/img/normalSize/";
 $images= array
   (
-  array("1.jpg","This is a fdss22","Mixed Media on PAper Board","95 * 71 cm","SOLD"),
-  array("2.jpg","This is a fdss223","Mixed Media on PAper Board","95 * 71 cm"),
-  array("3.jpg","This is a fdss4","Mixed Media on PAper Board","95 * 71 cm"),
+  array("KingOfSpades.jpg","King Of Spade, 2014","Mixed Media on PAper Board","95 * 71 cm","SOLD"),
+  array("QueenOfHearts.jpg","This is a fdss223","Mixed Media on PAper Board","95 * 71 cm"),
+  array("JackOfClubs.jpg","This is a fdss4","Mixed Media on PAper Board","95 * 71 cm"),
   array("4.jpg","This is a fdss5","Mixed Media on PAper Board","95 * 71 cm"),
   array("5.jpg","This is a fdss6","Mixed Media on PAper Board","95 * 71 cm"),
   array("6.jpg","This is a fdss7","Mixed Media on PAper Board","95 * 71 cm","SOLD"),
