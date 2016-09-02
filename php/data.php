@@ -14,7 +14,7 @@ $images= array
   (
   array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm "),
   array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm"),
-  array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paperd","Framed: 69 cm x 84cm"),
+  array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm"),
   array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm"),
   array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm"),
   array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm","SOLD"),
