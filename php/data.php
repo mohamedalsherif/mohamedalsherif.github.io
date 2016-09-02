@@ -13,8 +13,8 @@ $imagesLocationNormal= "public/img/normalSize/";
 $images= array
   (
   array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm "),
-  array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm"),
   array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm"),
+  array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm"),
   array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm"),
   array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm"),
   array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm","SOLD"),
@@ -83,10 +83,10 @@ $enquiryText = "For purchase enquiries and costs, or to arrange a viewing, pleas
 //Overlay Data
 $gallery_image_to_overlay_size = [
   "2430*3264" => array(100,95.1),
-  "2448*3264" => array(100,96),
   "3118*2217" => array(55.5,100),
+  "2448*3264" => array(100,96),
   "2448*3264" => array(100,95.9),
-  "2448*3264" => array(100,100),
+  "2448*3264" => array(100,96),
   "2432*2855" => array(91.5,100),
   "2784*3984" => array(100,89.4),
   "2880*4064" => array(100,90.6),/*(100,97.5)*/
