@@ -19,12 +19,12 @@ $images= array
   array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm"),
   array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm","SOLD"),
   array("AceOfSpades.jpg","Popping Aces - Ace of spades, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
-  array("AceOfHearts.jpg","Popping Aces - Ace of hearts, 2015","Pastels on paper","Framed: 95 cm x 71 cm", ,"SOLD"),
-  array("AceOfClubs.jpg","Popping Aces - Ace of clubs, 2015","Pastels on paper","Framed: 95 cm x 71 cm", ,"SOLD"),
-  array("AceOfDiamonds.jpg","Popping Aces - Ace of diamonds, 2015","Pastels on paper","Framed: 95 cm x 71 cm", ,"SOLD"),
+  array("AceOfHearts.jpg","Popping Aces - Ace of hearts, 2015","Pastels on paper","Framed: 95 cm x 71 cm","SOLD"),
+  array("AceOfClubs.jpg","Popping Aces - Ace of clubs, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
+  array("AceOfDiamonds.jpg","Popping Aces - Ace of diamonds, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
   array("KingOfSpades.jpg","King Of Spades, 2014","Pastels on paper","Framed: 75 cm x 55 cm","SOLD"),
-  array("QueenOfHearts.jpg","Queen Of Hearts","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
-  array("JackOfClubs.jpg","Jack Of Clubs","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD")
+  array("QueenOfHearts.jpg","Queen Of Hearts, 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
+  array("JackOfClubs.jpg","Jack Of Clubs, 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD")
  
   
   
