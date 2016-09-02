@@ -83,7 +83,7 @@ $enquiryText = "For purchase enquiries and costs, or to arrange a viewing, pleas
 //Overlay Data
 $gallery_image_to_overlay_size = [
   "2430*3264" => array(100,95.1),
-  "3118*2217" => array(55.5,100),
+  "3118*2217" => array(55.4,100),
   "2448*3264" => array(100,96),
   "2448*3264" => array(100,95.9),
   "2448*3264" => array(100,96),
