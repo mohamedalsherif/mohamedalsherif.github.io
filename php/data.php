@@ -12,12 +12,22 @@ $aboutMainImage = "public/img/normalSize/2.jpg";
 $imagesLocationNormal= "public/img/normalSize/";
 $images= array
   (
-  array("KingOfSpades.jpg","King Of Spade, 2014","Mixed Media on PAper Board","95 * 71 cm","SOLD"),
-  array("QueenOfHearts.jpg","This is a fdss223","Mixed Media on PAper Board","95 * 71 cm"),
-  array("JackOfClubs.jpg","This is a fdss4","Mixed Media on PAper Board","95 * 71 cm"),
-  array("TheJollyJoker.jpg","This is a fdss5","Mixed Media on PAper Board","95 * 71 cm"),
-  array("Chaos.jpg","This is a fdss6","Mixed Media on PAper Board","95 * 71 cm"),
-  array("boxOfChocolate.jpg","This is a fdss.","Mixed Media on PAper Board","95 * 71 cm","Sold")
+  array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm "),
+  array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm"),
+  array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paperd","Framed: 69 cm x 84cm"),
+  array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm"),
+  array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm"),
+  array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm","Sold")
+  array("AceOfSpades.jpg","Popping Aces (Ace of spades), 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
+  array("AceOfHearts.jpg","Popping Aces (Ace of hearts), 2015","Pastels on paper","Framed: 95 cm x 71 cm", ,"SOLD"),
+  array("AceOfClubs.jpg","Popping Aces (Ace of spades), 2015","Pastels on paper","Framed: 95 cm x 71 cm", ,"SOLD"),
+  array("AceOfDiamonds.jpg","Popping Aces (Ace of spades), 2015","Pastels on paper","Framed: 95 cm x 71 cm", ,"SOLD"),
+  array("KingOfSpades.jpg","King Of Spades, 2014","Pastels on paper","Framed: 75 cm x 55 cm","SOLD"),
+  array("QueenOfHearts.jpg","Queen Of Hearts","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
+  array("JackOfClubs.jpg","Jack Of Clubs","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD")
+ 
+  
+  
   );
 
 
