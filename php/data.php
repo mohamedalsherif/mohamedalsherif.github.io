@@ -24,8 +24,12 @@ $images= array
   array("AceOfDiamonds.jpg","Popping Aces - Ace of diamonds, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
   array("KingOfSpades.jpg","King Of Spades, 2014","Pastels on paper","Framed: 75 cm x 55 cm","SOLD"),
   array("QueenOfHearts.jpg","Queen Of Hearts, 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
-  array("JackOfClubs.jpg","Jack Of Clubs, 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD")
- 
+  array("MickeyMagazine.jpg","Vintage Mickey Magazine, 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
+  array("Chipsy.jpg","Chipsy, 2014","Pastels on paper","Framed: 75 cm x 55 cm"),
+  array("DollarBill.jpg","Dollar Bill (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
+  array("ItalianEuro.jpg","Italian Euro (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
+  array("CrushedCan.jpg","Crushed Can (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm"),
+  array("LightBulb.jpg","Light Bulb (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
   
   
   );
@@ -82,19 +86,28 @@ $enquiryText = "For purchase enquiries and costs, or to arrange a viewing, pleas
 
 //Overlay Data
 $gallery_image_to_overlay_size = [
-  "2430*3264" => array(100,95.1),
-  "3118*2217" => array(55.4,100),
+  "1215*1632" => array(100,95.1),
+  "1732*1232" => array(55.4,100),
   "2448*3264" => array(100,96),
-  "2448*3264" => array(100,95.9),
-  "2448*3264" => array(100,96),
+  "2415*3264" => array(100,95.9),
+  "1218*1632" => array(100,96),
   "2432*2855" => array(91.5,100),
   "2784*3984" => array(100,89.4),
   "2880*4064" => array(100,90.6),/*(100,97.5)*/
-  "2752*3904" => array(100,90),
-  "2856*4072" => array(100,89.5),
+  "1351*1935" => array(100,90),
+  "1428*2019" => array(100,89.5),
   "1845*2487" => array(100,94.9),/*100,95.9*/
   "1200*1665" => array(100,92),
   "2126*2862" => array(100,95),
+  "3264*2448" => array(100,100),
+  "629*533" => array(100,100),
+  "2167*2363" => array(100,100),
+  "2710*2260" => array(100,100),
+  "1432*1368" => array(100,100),
+  "2439*2318" => array(100,100),
+  
+  
+  
   
 ];
 ?>
