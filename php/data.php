@@ -12,12 +12,12 @@ $aboutMainImage = "public/img/normalSize/HomeImage.jpg";
 $imagesLocationNormal= "public/img/normalSize/";
 $images= array
   (
-  array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm "),
-  array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm"),
-  array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm"),
-  array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm"),
-  array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm"),
-  array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm","SOLD"),
+  array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm ", "AVAILABLE IN PLUS ONE GALLERY"),
+  array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm", , "AVAILABLE IN PLUS ONE GALLERY"),
+  array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm", , "AVAILABLE IN PLUS ONE GALLERY"),
+  array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm", , "AVAILABLE IN PLUS ONE GALLERY"),
+  array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm", , "AVAILABLE IN PLUS ONE GALLERY"),
+  array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm", "AVAILABLE IN PLUS ONE GALLERY"),
   array("AceOFSpades.jpg","Popping Aces - Ace of spades, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
   array("AceOfHearts.jpg","Popping Aces - Ace of hearts, 2015","Pastels on paper","Framed: 95 cm x 71 cm","SOLD"),
   array("AceOfClubs.jpg","Popping Aces - Ace of clubs, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
@@ -44,10 +44,10 @@ $exhibtionsLocation = "public/img/exhibitions/";
 $exhibitionPhotoSize = "100%";
 $exhibitions= array
   (
-  array("Opening.jpg","OFFICIAL OPENING - PLUS ONE GALLERY","Group show","20 SEPTEMBER - 15 OCTOBER 2016","","http://www.plusonegallery.com/exhibitions/110/overview/"),
+  array("Opening.jpg","OFFICIAL OPENING","Group show","20 SEPTEMBER - 15 OCTOBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/110/overview/"),
   array("SummerShow.jpg","SUMMER SHOW","Group show","20 JULY - 3 SEPTEMBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/109/overview/"),
-  array("WinterShow.jpg","WINTER SHOW","13 JANUARY - 6 FEBRUARY 2016","","http://www.plusonegallery.com/exhibitions/107/overview/"),
-  array("TheBeautyOfPaper.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","","http://www.plusonegallery.com/exhibitions/103/overview/"),
+  array("WinterShow.jpg","WINTER SHOW","13 JANUARY - 6 FEBRUARY 2016","PLUS ONE GALLERY","http://www.plusonegallery.com/exhibitions/107/overview/"),
+  array("TheBeautyOfPaper.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","PLUS ONE GALLERY","http://www.plusonegallery.com/exhibitions/103/overview/"),
   
   );
 
@@ -55,11 +55,11 @@ $exhibitions= array
 //Article Data
 $articles= array
   (
-    array("NOURINE HAMMAD: REALITY CHECK" ,"http://www.cairoscene.com/ArtsAndCulture/Nourine-Hammad-Reality-Check?M=True"),
-    array("xxx" ,"http://www.w3schools.com/html/"),
-    array("www.articlemagazzzinee.cceee" ,"http://www.w3schools.com/html/"),
-    array("egyptian hyperreaistic artist" ,"http://www.w3schools.com/html/"),
-    array("ssss" ,"http://www.w3schools.com/html/"),
+    array("Nourine Hammad | Plus One Gallery" ,"http://www.plusonegallery.com/artists/191-nourine-hammad/overview/"),
+    array("Nourine Hammad: Reality check | CairoScene" ,"http://www.cairoscene.com/ArtsAndCulture/Nourine-Hammad-Reality-Check?M=True"),
+    array("An interview with Nourine Hammad | Plus One Gallery" ,"http://www.plusonegallery.com/blog/52/"),
+    array("Hyperrealism 3D drawings by Nourine Hammad | Art People Gallery" ,"https://www.artpeoplegallery.com/hyperrealism-3d-drawings-nourine-hammad/"),
+    array("Egyptian Hyperrealism Artist Claims International Recognition in the UK | Egyptian Streets" ,"http://egyptianstreets.com/2015/09/13/egyptian-hyperrealism-artist-claims-international-recognition-in-the-uk/"),
   );
 
 //Contact Data
