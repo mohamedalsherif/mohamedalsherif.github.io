@@ -13,10 +13,10 @@ $imagesLocationNormal= "public/img/normalSize/";
 $images= array
   (
   array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm ", "AVAILABLE IN PLUS ONE GALLERY"),
-  array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm", , "AVAILABLE IN PLUS ONE GALLERY"),
-  array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm", , "AVAILABLE IN PLUS ONE GALLERY"),
-  array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm", , "AVAILABLE IN PLUS ONE GALLERY"),
-  array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm", , "AVAILABLE IN PLUS ONE GALLERY"),
+  array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm", "AVAILABLE IN PLUS ONE GALLERY"),
+  array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm", "AVAILABLE IN PLUS ONE GALLERY"),
+  array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm",  "AVAILABLE IN PLUS ONE GALLERY"),
+  array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm", "AVAILABLE IN PLUS ONE GALLERY"),
   array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm", "AVAILABLE IN PLUS ONE GALLERY"),
   array("AceOFSpades.jpg","Popping Aces - Ace of spades, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
   array("AceOfHearts.jpg","Popping Aces - Ace of hearts, 2015","Pastels on paper","Framed: 95 cm x 71 cm","SOLD"),
