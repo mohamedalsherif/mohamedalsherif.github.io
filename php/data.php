@@ -89,22 +89,22 @@ $gallery_image_to_overlay_size = [
   "1215*1632" => array(100,95.1), /*Chaos*/
   "1732*1232" => array(55.4,100), /*Hypnotizing lollipops*/
   "2448*3264" => array(100,96), /*The Jolly Joker*/
-  "1208*1632" => array(100,95.9), /*The Joker I*/
-  "1218*1632" => array(100,96), /*The Joker II*/
+  "1208*1632" => array(100,94.5), /*The Joker I*/
+  "1218*1632" => array(100,95.4), /*The Joker II*/
   "2432*2855" => array(91.5,100), /*Box of Chocolate*/
   "2784*3984" => array(100,89.4), /*Ace spade*/
   "2880*4064" => array(100,90.6),/*Ace heart*/
-  "1351*1935" => array(100,90),/*Ace club*/
-  "1428*2019" => array(100,89.5),/*Ace diamond*/
+  "1351*1935" => array(100,89.4),/*Ace club*/
+  "1428*2019" => array(100,90.3),/*Ace diamond*/
   "1845*2487" => array(100,94.9),/*King*/
   "1200*1665" => array(100,92),/*Queen*/
   "2126*2862" => array(100,95),/*Jack*/
-  "2267*1700" => array(100,100),/*Mickey*/
-  "629*533" => array(100,100),/*Chipsy*/
-  "1084*1181" => array(100,100),/*Dollar*/
-  "2710*2260" => array(100,100),/*Euro*/
-  "1432*1368" => array(100,100),/*Crushed Can*/
-  "1694*1610" => array(100,100),/*Light bulb*/
+  "2267*1700" => array(58.6,100),/*Mickey*/
+  "629*533" => array(66.1,100),/*Chipsy*/
+  "1084*1181" => array(85.1,100),/*Dollar*/
+  "2710*2260" => array(65.1,100),/*Euro*/
+  "1432*1368" => array(74.6,100),/*Crushed Can*/
+  "1694*1610" => array(74.1,100),/*Light bulb*/
   
   
   
