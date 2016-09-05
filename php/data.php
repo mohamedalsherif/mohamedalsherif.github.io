@@ -24,12 +24,12 @@ $images= array
   array("AceOfDiamonds.jpg","Popping Aces - Ace of diamonds, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
   array("KingOfSpades.jpg","King Of Spades, 2014","Pastels on paper","Framed: 75 cm x 55 cm","SOLD"),
   array("QueenOfHearts.jpg","Queen Of Hearts, 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
-  array("MickeyMagazine.jpg","Vintage Mickey Magazine, 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
-  array("Chipsy.jpg","Chipsy, 2014","Pastels on paper","Framed: 75 cm x 55 cm"),
-  array("DollarBill.jpg","Dollar Bill (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
-  array("ItalianEuro.jpg","Italian Euro (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
-  array("CrushedCan.jpg","Crushed Can (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm"),
-  array("LightBulb.jpg","Light Bulb (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 75 cm x 55 cm", "SOLD"),
+  array("MickeyMagazine.jpg","Vintage Mickey Magazine, 2014","Pastels on paper","Framed: 38 cm x30 cm", "SOLD"),
+  array("Chipsy.jpg","Chipsy, 2014","Pastels on paper","Framed:  40 cm x 33 cm"),
+  array("DollarBill.jpg","Dollar Bill (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 30 cm x 30 cm", "SOLD"),
+  array("ItalianEuro.jpg","Italian Euro (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 30 cm x 30 cm", "SOLD"),
+  array("CrushedCan.jpg","Crushed Can (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 40 cm x 33 cm"),
+  array("LightBulb.jpg","Light Bulb (inspired by Marcello Barenghi), 2014","Pastels on paper","Framed: 33 cm x 38  cm")
   
   
   );
