@@ -6,7 +6,7 @@ $tabIcon="public/img/other/nTabIcon.png";
 
 //About data
 $bioText = "Working in pastels, pencils and charcoal Nourine Hammad not only strives to produce works that are representational, but goes beyond that and tries to discover the truth within her subjects. By approaching her subject matter honestly and without vanity, she strives to create detailed work that celebrates perfection and imperfection which coexist comfortably alongside each other. The way Hammad plays with objects and colour is sophisticated and balanced. A feast for the eyes.";
-$aboutMainImage = "public/img/normalSize/2.jpg";
+$aboutMainImage = "public/img/normalSize/HomeImage.jpg";
 
 //Artworks Data
 $imagesLocationNormal= "public/img/normalSize/";
