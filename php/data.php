@@ -46,7 +46,7 @@ $exhibitions= array
   (
   array("Opening.jpg","OFFICIAL OPENING","Group show","20 SEPTEMBER - 15 OCTOBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/110/overview/"),
   array("SummerShow.jpg","SUMMER SHOW","Group show","20 JULY - 3 SEPTEMBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/109/overview/"),
-  array("WinterShow.jpg","WINTER SHOW","13 JANUARY - 6 FEBRUARY 2016","PLUS ONE GALLERY","http://www.plusonegallery.com/exhibitions/107/overview/"),
+  array("WinterShow.jpg","WINTER SHOW","Group show","13 JANUARY - 6 FEBRUARY 2016","PLUS ONE GALLERY","http://www.plusonegallery.com/exhibitions/107/overview/"),
   array("TheBeautyOfPaper.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","PLUS ONE GALLERY","http://www.plusonegallery.com/exhibitions/103/overview/"),
   
   );
