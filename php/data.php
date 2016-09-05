@@ -44,22 +44,18 @@ $exhibtionsLocation = "public/img/exhibitions/";
 $exhibitionPhotoSize = "100%";
 $exhibitions= array
   (
-  array("wrecks-high-res.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","any random txt2 any random txt any random txt ldkdks kd kkkk as laskdkasdkd las kasd any random txt any random txt any random txt any random txt any random txt any random txt any random txt any random txt any random txt","http://www.plusonegallery.com/exhibitions/103/overview/"),
-  array("alexandra-klimas-chicken-painting.jpg","Winter Show","Group show","13 JANUARY - 6 FEBRUARY 2016","any random txt","http://www.plusonegallery.com/exhibitions/107/overview/"),
-  array("wrecks-high-res.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","any random txt2","http://www.plusonegallery.com/exhibitions/103/overview/"),
-  array("wrecks-high-res.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","any random txt2","http://www.plusonegallery.com/exhibitions/103/overview/"),
-  array("alexandra-klimas-chicken-painting.jpg","Winter Show","Group show","13 JANUARY - 6 FEBRUARY 2016","any random txt","http://www.plusonegallery.com/exhibitions/107/overview/"),
-  array("wrecks-high-res.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","any random txt2 any random txt any random txt any random txt any random txt any random txt any random txt any random txt any random txt any random txt any random txt any random txt","http://www.plusonegallery.com/exhibitions/103/overview/"),
-  array("alexandra-klimas-chicken-painting.jpg","Winter Show","Group show","13 JANUARY - 6 FEBRUARY 2016","any random txt","http://www.plusonegallery.com/exhibitions/107/overview/"),
-  array("wrecks-high-res.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","any random txt2","http://www.plusonegallery.com/exhibitions/103/overview/"),
-  array("wrecks-high-res.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","any random txt2","http://www.plusonegallery.com/exhibitions/103/overview/"),
+  array("Opening.jpg","OFFICIAL OPENING - PLUS ONE GALLERY","Group show","20 SEPTEMBER - 15 OCTOBER 2016","","http://www.plusonegallery.com/exhibitions/110/overview/"),
+  array("SummerShow.jpg","SUMMER SHOW","Group show","20 JULY - 3 SEPTEMBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/109/overview/"),
+  array("WinterShow.jpg","WINTER SHOW","13 JANUARY - 6 FEBRUARY 2016","","http://www.plusonegallery.com/exhibitions/107/overview/"),
+  array("TheBeautyOfPaper.jpg","THE BEAUTY OF PAPER","Group show","8 - 26 SEPTEMBER 2015","","http://www.plusonegallery.com/exhibitions/103/overview/"),
+  
   );
 
 
 //Article Data
 $articles= array
   (
-    array("sdasds" ,"http://www.w3schools.com/html/"),
+    array("NOURINE HAMMAD: REALITY CHECK" ,"http://www.cairoscene.com/ArtsAndCulture/Nourine-Hammad-Reality-Check?M=True"),
     array("xxx" ,"http://www.w3schools.com/html/"),
     array("www.articlemagazzzinee.cceee" ,"http://www.w3schools.com/html/"),
     array("egyptian hyperreaistic artist" ,"http://www.w3schools.com/html/"),
@@ -70,7 +66,7 @@ $articles= array
 $contactPageText = "contact@nourinehammad.com";
 $facebookPage="https://m.facebook.com/profile.php?id=1413192872293705&refid=17";
 $instagramPage="https://www.instagram.com/nourinehammadart/";
-$enquiryText = "For purchase enquiries and costs, or to arrange a viewing, please contact our team at info@plusonegallery.com or phone the gallery directly on 020 7730 7656.";
+$enquiryText = "";
 
 
 
