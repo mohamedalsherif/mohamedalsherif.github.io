@@ -23,7 +23,7 @@
 
 
 
-.refcontainer {margin-left: 3%;margin-right: 3%;width: 94%;margin-top:2%;text-align: center;overflow: hidden;float: left;background-size: cover;background-repeat: no-repeat;background-size: contain;}
+.refcontainer {margin-left: 3%;margin-right: 3%;width: 94%;margin-top:2%;text-align: center;overflow: hidden;float: left;background-size: cover;background-repeat: no-repeat;background-size: contain;background-position-x:center}
 
 .refcontainer:before {
      content: "";
