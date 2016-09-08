@@ -1,8 +1,7 @@
-
 .articleLinks
 {
   color:#2c87f0!important;
-  margin-top: 0px;
+  margin-top: 10px;
   clear: both;
   font-family: 'Open Sans', sans-serif;  font-weight: lighter; letter-spacing: 1px;
   line-height: 1.3;
@@ -10,7 +9,8 @@
 
 #articlesDiv
 {
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: left;
 }
 
@@ -19,3 +19,4 @@
 {
   height: 60vh;
 }
+Contact GitHub API Training Shop Blog About
