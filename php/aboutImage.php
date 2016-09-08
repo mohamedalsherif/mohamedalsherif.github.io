@@ -30,7 +30,7 @@ function getHomeMainImage()
     $formatNew ='
 
 
-    <a id="theHomeMain" href="%s" data-size="1055x1460" class="demo-gallery__img--main">
+    <a id="theHomeMain" href="%s" data-size="545x865" class="demo-gallery__img--main">
        <img src="%s" class="homePageImages1"/>
        <figure>%s</figure>
     </a>';
