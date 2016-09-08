@@ -3,7 +3,7 @@
 .pImageName{ text-align: center;  font-style: italic; margin:0px; margin-left: 5px;  font-size: 1.2em; }
 .pImageName{ font-family: 'Open Sans', sans-serif;  font-weight: lighter; letter-spacing: 1px; }
 
-.pSold{color: black; font-size: 15px!important;}
+.pSold{color: red; font-size: 15px!important;}
 
 .pBold{font-weight: bold;}
 
