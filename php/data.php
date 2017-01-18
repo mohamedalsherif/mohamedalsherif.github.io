@@ -45,6 +45,7 @@ $exhibtionsLocation = "public/img/exhibitions/";
 $exhibitionPhotoSize = "100%";
 $exhibitions= array
   (
+   array("WinterShow17.jpg","WINTER SHOW","Group show","24 SEPTEMBER - 25 February 2017","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/110/overview/"),
   array("Opening.jpg","OFFICIAL OPENING","Group show","20 SEPTEMBER - 15 OCTOBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/110/overview/"),
   array("SummerShow.jpg","SUMMER SHOW","Group show","20 JULY - 3 SEPTEMBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/109/overview/"),
   array("WinterShow.jpg","WINTER SHOW","Group show","13 JANUARY - 6 FEBRUARY 2016","PLUS ONE GALLERY","http://www.plusonegallery.com/exhibitions/107/overview/"),
@@ -56,6 +57,7 @@ $exhibitions= array
 //Article Data
 $articles= array
   (
+  
     array("Nourine Hammad | Plus One Gallery" ,"http://www.plusonegallery.com/artists/191-nourine-hammad/overview/"),
     array("Nourine Hammad: Reality check | CairoScene" ,"http://www.cairoscene.com/ArtsAndCulture/Nourine-Hammad-Reality-Check?M=True"),
     array("An interview with Nourine Hammad | Plus One Gallery" ,"http://www.plusonegallery.com/blog/52/"),
