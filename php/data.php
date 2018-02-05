@@ -12,6 +12,7 @@ $aboutMainImage = "public/img/normalSize/HomeImage.jpg";
 $imagesLocationNormal= "public/img/normalSize/";
 $images= array
   (
+  array("ChaosIII.jpg","Chaos III: Swirl, 2016","Pastels on paper","Framed: 116 cm x 85 cm ", "AVAILABLE IN PLUS ONE GALLERY"),
   array("ChaosII.jpg","Chaos II, 2016","Pastels on paper","Framed: 116 cm x 85 cm ", "SOLD"),
   array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm ", "SOLD"),
   array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm", "AVAILABLE IN PLUS ONE GALLERY"),
@@ -86,6 +87,7 @@ $enquiryText = "";
 
 //Overlay Data
 $gallery_image_to_overlay_size = [
+  "2321*3189" => array(100,93),
   "2362*3262" => array(100,92.7), /*Chaos II*/
   "1215*1632" => array(100,95.1), /*Chaos*/
   "1732*1232" => array(55.4,100), /*Hypnotizing lollipops*/
