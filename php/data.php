@@ -87,7 +87,7 @@ $enquiryText = "";
 
 //Overlay Data
 $gallery_image_to_overlay_size = [
-  "2321*3189" => array(100,92.7), /*Chaos III*/
+  "2321*3189" => array(100,93), /*Chaos III*/
   "2362*3262" => array(100,92.7), /*Chaos II*/
   "1215*1632" => array(100,95.1), /*Chaos*/
   "1732*1232" => array(55.4,100), /*Hypnotizing lollipops*/
