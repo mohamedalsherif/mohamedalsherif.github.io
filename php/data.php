@@ -89,7 +89,7 @@ $enquiryText = "";
 
 //Overlay Data
 $gallery_image_to_overlay_size = [
-  "828*978" => array(100,100), /*Mo Salah*/
+  "828*978" => array(100,92.5), /*Mo Salah*/
   "3264*2448" => array(58.5,100), /*Batman*/
   "2321*3189" => array(100,93), /*Chaos III*/
   "2362*3262" => array(100,92.7), /*Chaos II*/
