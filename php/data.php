@@ -12,13 +12,14 @@ $aboutMainImage = "public/img/normalSize/HomeImage.jpg";
 $imagesLocationNormal= "public/img/normalSize/";
 $images= array
   (
+  array("Batman.jpg","Batman's Time, 2018","Pencil on paper", "Framed: 67 cm x 116 cm "),
   array("ChaosIII.jpg","Chaos III: Swirl, 2017","Pastels on paper","Framed: 116 cm x 85 cm ", "AVAILABLE IN PLUS ONE GALLERY"),
   array("ChaosII.jpg","Chaos II, 2016","Pastels on paper","Framed: 116 cm x 85 cm ", "SOLD"),
   array("Chaos.jpg","Chaos, 2016","Pastels on paper","Framed: 116 cm x 85 cm ", "SOLD"),
   array("HypnotizingLollipops.jpg","Hypnotizing Lollipops, 2016","Pastels on paper","Framed: 69 cm x 84cm", "AVAILABLE IN PLUS ONE GALLERY"),
   array("TheJollyJoker.jpg","The Jolly Joker, 2016","Pastels on paper","Framed: 105 cm x 85 cm", "AVAILABLE IN PLUS ONE GALLERY"),
-  array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm",  "AVAILABLE IN PLUS ONE GALLERY"),
-  array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm", "AVAILABLE IN PLUS ONE GALLERY"),
+  array("Joker_I.jpg","The Joker I","Pastels on paper","Framed: 63.5 cm x 88 cm",  "SOLD"),
+  array("Joker_II.jpg","The Joker II","Pastels on paper","Framed: 63.5 cm x 88 cm", "SOLD"),
   array("boxOfChocolate.jpg","Life Is Like A Box Of Chocolate, 2015","Pastels on paper","Framed: 53 x 47 cm", "AVAILABLE IN PLUS ONE GALLERY"),
   array("AceOFSpades.jpg","Popping Aces - Ace of spades, 2015","Pastels on paper","Framed: 95 cm x 71 cm" ,"SOLD"),
   array("AceOfHearts.jpg","Popping Aces - Ace of hearts, 2015","Pastels on paper","Framed: 95 cm x 71 cm","SOLD"),
@@ -47,7 +48,7 @@ $exhibitionPhotoSize = "100%";
 $exhibitions= array
   (
   array("AutumnShow17.jpg","Autumn SHOW","Group show","20 SEPTEMBER - 04 NOVEMBER 2017","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/117/overview/"),
-   array("WinterShow17.jpg","WINTER SHOW","Group show","24 SEPTEMBER - 25 February 2017","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/113/overview/"),
+  array("WinterShow17.jpg","WINTER SHOW","Group show","24 SEPTEMBER - 25 February 2017","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/113/overview/"),
   array("Opening.jpg","OFFICIAL OPENING","Group show","20 SEPTEMBER - 15 OCTOBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/110/overview/"),
   array("SummerShow.jpg","SUMMER SHOW","Group show","20 JULY - 3 SEPTEMBER 2016","PLUS ONE GALLERY - BATTERSEA REACH","http://www.plusonegallery.com/exhibitions/109/overview/"),
   array("WinterShow.jpg","WINTER SHOW","Group show","13 JANUARY - 6 FEBRUARY 2016","PLUS ONE GALLERY","http://www.plusonegallery.com/exhibitions/107/overview/"),
@@ -87,6 +88,7 @@ $enquiryText = "";
 
 //Overlay Data
 $gallery_image_to_overlay_size = [
+  "3264*2448" => array (100,100), /*Batman*/
   "2321*3189" => array(100,93), /*Chaos III*/
   "2362*3262" => array(100,92.7), /*Chaos II*/
   "1215*1632" => array(100,95.1), /*Chaos*/
