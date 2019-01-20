@@ -1,0 +1,29 @@
+.combiningGalleryDivs
+{
+  overflow: auto;
+  overflow-y: hidden; // hide vertical
+  overflow-x: hidden; // hide horizontal
+}
+
+.ExhibitionContainerDiv
+{
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+.exhibitionImage
+{
+	margin-right:10px;
+	box-shadow: rgb(136, 136, 136) 4px 4px 5px;
+}
+
+.ExhibitionDescription
+{
+  margin-left:10px;
+  font-size: 12px!important;
+}
+
+.combiningExhibitions
+{
+	overflow: auto;
+}

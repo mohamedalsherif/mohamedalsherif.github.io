@@ -1,0 +1,68 @@
+.contactSocialIcons
+{
+  width: 25px;
+  height:25px;
+  margin-right: 2.9em;
+  opacity: 0.5;
+}
+
+.contactSocialLi
+{
+  display:inline;
+}
+
+#nourineMail
+{
+  text-align:center
+}
+
+
+#contactTopDiv{height: 10.7vw;}
+
+.enquiry
+{
+  font-size: 11px;
+  margin-top: 7%;
+  margin-bottom: 2%;
+}
+
+
+.theAFloatNone
+{
+  clear:both;
+  float: none!important;
+}
+
+#theMailCenterA
+{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:607px)
+{
+  #theMailCenterA
+  {
+    font-size: 2.4vw;
+  }
+}
+
+@media (min-width:641px)
+{
+  #theMailCenterA
+  {
+    font-size: 2.2vw;
+  }
+}
+
+
+@media (min-width:1300px)
+{
+  .contactSocialIcons
+  {
+    width: 35px;
+    height:25px;
+    margin-right: 4.9em;
+    opacity: 0.5;
+  }
+}
