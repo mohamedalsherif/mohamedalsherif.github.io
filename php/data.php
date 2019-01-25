@@ -12,8 +12,8 @@ $aboutMainImage = "public/img/normalSize/HomeImage.jpg";
 //Prints Data
 $printsImages = array
 (
-    array("MoSalah_website1.jpg", "Mo Salah Jersey, 2018", "Pencil on paper", "Framed: 104 cm x 88 cm"),
-    array("Batman.jpg", "Batman's Time, 2018", "Pencil on paper", "Framed: 67 cm x 116 cm "),
+    array("MoSalah_website1.jpg", "Mo Salah Jersey, 2018", "Signed Limited Edition", "A0, A1, A2 SIZES AVAILABLE"),
+    array("Batman.jpg", "Batman's Time, 2018", "Signed Limited Edition", "A0, A1, A2 SIZES AVAILABLE"),
 );
 $imagesLocationNormal = "public/img/normalSize/";
 
@@ -51,7 +51,7 @@ $exhibtionsLocation = "public/img/exhibitions/";
 $exhibitionPhotoSize = "100%";
 $exhibitions = array
 (
-    array("MuseuDeTabac.jpeg", "HYPERREALISM", "Group show", "21 JUNE- 30 SEPTEMBER 2018", "MUSEU DE TABAC - ANDORRA", "https://www.plusonegallery.com/exhibitions/125/overview/"),
+    array("MuseuDeTabac.jpg", "HYPERREALISM", "Group show", "21 JUNE- 30 SEPTEMBER 2018", "MUSEU DE TABAC - ANDORRA", "https://www.plusonegallery.com/exhibitions/125/overview/"),
     array("AutumnShow17.jpg", "AUTUMN SHOW", "Group show", "20 SEPTEMBER - 04 NOVEMBER 2017", "PLUS ONE GALLERY - LONDON", "http://www.plusonegallery.com/exhibitions/117/overview/"),
     array("WinterShow17.jpg", "WINTER SHOW", "Group show", "24 SEPTEMBER - 25 February 2017", "PLUS ONE GALLERY - LONDON", "http://www.plusonegallery.com/exhibitions/113/overview/"),
     array("Opening.jpg", "OFFICIAL OPENING", "Group show", "20 SEPTEMBER - 15 OCTOBER 2016", "PLUS ONE GALLERY - LONDON", "http://www.plusonegallery.com/exhibitions/110/overview/"),
