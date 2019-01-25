@@ -59,22 +59,12 @@
 }
 @media (min-width:416px)
 {
-  #theNav3
-  {
-    margin-left: 0px;
-  }
-  #theNav4
-  {
-    margin-left: 34%;
-  }
+ 
 }
 
 @media (min-width:460px)
 {
-  #theNav4
-  {
-    margin-left: 32%;
-  }
+
 }
 @media (min-width:481px)
 {
@@ -84,23 +74,12 @@
 
 @media (min-width:500px)
 {
-  #theNav4
-  {
-    margin-left: 28%;
-  }
+
 }
 
 @media (min-width:571px)
 {
-  #theNav3
-  {
-    margin-left: 0px;
-  }
 
-  #theNav4
-  {
-    margin-left: 0px;
-  }
 }
 
 @media (min-width:800px)
