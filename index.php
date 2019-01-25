@@ -11,11 +11,13 @@
 <?php include_once 'php/navigation.php';?>
   <div id="content" class="visib_hidden">
 
-    <?php include_once 'pages/about.php';?>
-    <?php include_once 'pages/gallery.php';?>
-    <?php include_once 'pages/exhibition.php';?>
-    <?php include_once 'pages/articles.php';?>
-    <?php include_once 'pages/contact.php';?>
+      <?php include_once 'pages/about.php'; ?>
+      <?php include_once 'pages/artwork.php'; ?>
+      <?php include_once 'pages/exhibitions.php'; ?>
+      <?php include_once 'pages/prints.php'; ?>
+      <?php include_once 'pages/courses.php'; ?>
+      <?php include_once 'pages/articles.php'; ?>
+      <?php include_once 'pages/contact.php'; ?>
   </div>
 
 
