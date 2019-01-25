@@ -31,6 +31,7 @@ echo '
     <link rel="stylesheet" type="text/css" media="screen,print" href="public/css/article.css" />
     <link rel="stylesheet" type="text/css" media="screen,print" href="public/css/about.css" />
     <link rel="stylesheet" type="text/css" media="screen,print" href="public/css/contact.css" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="public/css/courses.css" />
     <title>Nourine Hammad </title>
 
 
